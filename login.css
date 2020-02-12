@@ -1,0 +1,68 @@
+html {
+    background-color: black;
+    height: 100%;
+}
+
+body {
+    margin:10% 20% 10% 20% ;
+    background-color: lightgray;
+    border:lightgray solid 1px;
+    height: 100%;
+}
+
+
+div {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: 5, 1fr;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.RedText {
+    color: red;
+}
+
+#LogIn {
+    color: white;
+    text-align: center;
+}
+
+#HeaderOne {
+    background-color:white;
+    border:white solid 1px;
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+div {
+    background-color:white;
+    grid-column: 1/4;
+    grid-row: 2;
+    text-align: center;
+}
+#HeaderTwo {
+    background-color:lightgray;
+    border:lightgray solid 1px;
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+#Email {
+    border-top: 1px lightgr;
+    background-color: white;
+}
+
+#Password {
+    border-top: 1px lightgr;
+    background-color: white;
+}
+
+#LogIn {
+    border-top: 1px lightgr;
+    background-color: white;
+}

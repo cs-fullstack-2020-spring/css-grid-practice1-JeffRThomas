@@ -55,14 +55,32 @@ div {
 #Email {
     border-top: 1px lightgr;
     background-color: white;
+    grid-column: 1/4;
+    grid-row: 3;
 }
 
 #Password {
     border-top: 1px lightgr;
     background-color: white;
+    grid-column: 1/4;
+    grid-row: 4;
 }
 
 #LogIn {
     border-top: 1px lightgr;
     background-color: white;
+    grid-column: 2/4;
+    grid-row: 5;
+}
+
+#ForgotPassword {
+    border-top: 1px lightgr;
+    background-color: white;
+    grid-column: 1/2;
+    grid-row: 5;
+}
+
+.Password h6 {
+    grid-column: 3/4;
+    grid-row: 4;
 }
